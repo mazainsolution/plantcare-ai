@@ -1,0 +1,11 @@
+i face these issues that this cant be work properly with the language changes (urdu, roman english) and in the pdf make it formatted in tables and fix its alignment and in the also add the recummended products in the check boxes and remove the appendix from pdf and also fix this "Research options - NOT product recommendations
+Research treatment options are withheld because this scan is uncertain, healthy or background.
+No candidate in the research reference has independently verified local registration or a verified purchase link. Consult local
+crop-extension sources and the official product label." also fix the light and dark theme and on the project disease diagnoses add a option in backend that a popup video appears that can be manage by the backend ( i want to putt the instruction that how to use this model )
+
+
+
+for the login add the bucket that limit the logins as a bucked of 10 tokens as every token refill after 20 sec or as you want and if basket full it stops 
+
+
+

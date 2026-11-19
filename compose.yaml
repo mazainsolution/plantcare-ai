@@ -1,0 +1,26 @@
+services:
+  api:
+    build:
+      context: .
+      target: api
+    env_file: .env
+    environment:
+      DB_PATH: /data/db.sqlite3
+      MEDIA_ROOT: /data/media
+      STATIC_ROOT: /data/static
+    volumes:
+      - plantcare_data:/data
+    restart: unless-stopped
+  web:
+    build:
+      context: .
+      target: web
+    ports:
+      - '127.0.0.1:8080:80'
+    volumes:
+      - plantcare_data:/data:ro
+    depends_on:
+      - api
+    restart: unless-stopped
+volumes:
+  plantcare_data:
